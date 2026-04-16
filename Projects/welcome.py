@@ -1,1 +1,2 @@
-print("Welcome to Python Programs!") 
+msg = input("Enter welcome message: ")
+print("Welcome Message:", msg)

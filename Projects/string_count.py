@@ -1,6 +1,14 @@
-s=input() 
-v=sum(c.lower() in "aeiou" for c in s) 
-c=sum(c.isalpha() and c.lower() not in "aeiou" for c in s) 
-u=sum(c.isupper() for c in s) 
-l=sum(c.islower() for c in s) 
-print(v,c,u,l) 
+s=input("Enter string: ")
+v="aeiouAEIOU"
+vowels=consonants=upper=lower=0
+for ch in s:
+    if ch.isalpha():
+        if ch in v:
+            vowels+=1
+        else:
+            consonants+=1
+        if ch.isupper():
+            upper+=1
+        else:
+            lower+=1
+print(vowels,consonants,upper,lower)

@@ -1,3 +1,8 @@
-a=int(input());b=int(input()) 
-print("Larger:",max(a,b)) 
-print("Smaller:",min(a,b)) 
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+if a>b:
+    print("Larger:",a)
+    print("Smaller:",b)
+else:
+    print("Larger:",b)
+    print("Smaller:",a)

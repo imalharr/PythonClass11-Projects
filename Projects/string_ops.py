@@ -1,3 +1,3 @@
-s=input() 
-print("Palindrome" if s==s[::-1] else "Not Palindrome") 
-print(s.swapcase()) 
+s=input("Enter string: ")
+print(s==s[::-1])
+print(s.swapcase())

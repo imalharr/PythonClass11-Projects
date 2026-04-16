@@ -1,4 +1,10 @@
-n=int(input()) 
-print("Perfect" if sum(i for i in range(1,n) if n%i==0)==n else "Not Perfect") 
-print("Armstrong" if sum(int(d)**len(str(n)) for d in str(n))==n else "Not Armstrong") 
-print("Palindrome" if str(n)==str(n)[::-1] else "Not Palindrome") 
+num=int(input("Enter number: "))
+s=0
+for i in range(1,num):
+    if num%i==0:
+        s+=i
+print("Perfect:",s==num)
+order=len(str(num))
+s=sum(int(d)**order for d in str(num))
+print("Armstrong:",s==num)
+print("Palindrome:",str(num)==str(num)[::-1])
