@@ -4,6 +4,13 @@ A bunch of basic Python programs for practice (loops, conditions, strings, lists
 
 ---
 
+
+<img width="490" height="494" alt="{FFE7D92C-A510-486B-B8A1-CE2A997D3FD6}" src="https://github.com/user-attachments/assets/0fa000d4-b94e-44b7-80bf-3bdfa3d2c340" />
+
+
+---
+
+
 ## 📁 Files Overview
 
 ### 🔹 Basics
