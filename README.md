@@ -3,6 +3,9 @@
 A bunch of basic Python programs for practice (loops, conditions, strings, lists, etc.)
 
 ---
+<img width="324" height="404" alt="{A3F9A84F-5382-4F92-A43B-3B062A2B1858}" src="https://github.com/user-attachments/assets/97323ce6-867b-4658-932b-a958b9ce7115" />
+---
+
 
 ## 📁 Files Overview
 
