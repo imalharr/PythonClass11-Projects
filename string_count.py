@@ -1,0 +1,6 @@
+s=input() 
+v=sum(c.lower() in "aeiou" for c in s) 
+c=sum(c.isalpha() and c.lower() not in "aeiou" for c in s) 
+u=sum(c.isupper() for c in s) 
+l=sum(c.islower() for c in s) 
+print(v,c,u,l) 
